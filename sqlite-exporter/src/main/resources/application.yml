@@ -1,0 +1,29 @@
+## YAML Template.
+---
+spring:
+    datasource:
+        url:    "jdbc:sqlite: ./export.db"
+        
+        
+external:
+    props:  ""
+        
+datasource:
+    url: ""
+    schema: ""
+    username: ""
+    password: ""
+    extract:
+        tables: ""
+    
+export:
+    directory: ""
+    basename: ""
+    extension: ""    
+    
+jdbc:
+    driver:
+        directory: ""
+        
+        
+        
